@@ -16,7 +16,7 @@ function App() {
   return (
     <ChakraBaseProvider theme={theme}>
       <Flex h="95vh" w="100vw" alignItems="center" justifyContent="center">
-        <span>1</span>
+        <span>2</span>
         <ChatWindow userId="1" />
       </Flex>
     </ChakraBaseProvider>
