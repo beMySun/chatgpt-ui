@@ -6,7 +6,7 @@ const theme = extendTheme({
   styles: {
     global: (props: any) => ({
       body: {
-        bgColor: '#3182ce'
+        bgColor: '#B3E1DB'
       }
     })
   },
@@ -15,8 +15,9 @@ const theme = extendTheme({
 function App() {
   return (
     <ChakraBaseProvider theme={theme}>
-      <Flex h="100vh" w="100vw" alignItems="center" justifyContent="center">
+      <Flex h="95vh" w="100vw" alignItems="center" justifyContent="center">
         <ChatWindow userId="1" />
+        <span> Hello 阿丹 </span>
       </Flex>
     </ChakraBaseProvider>
   )
